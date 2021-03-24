@@ -6,6 +6,7 @@ import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
 import com.example.shoesapp.model.Shoe
 
+//Did I get through it..?
 class MyViewModel: ViewModel() {
     private val _shoes: MutableLiveData<MutableList<Shoe>> = MutableLiveData()
     val shoes: LiveData<MutableList<Shoe>>
