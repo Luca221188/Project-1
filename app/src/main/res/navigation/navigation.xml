@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            xmlns:tools="http://schemas.android.com/tools" android:id="@+id/navigation"
+            app:startDestination="@id/loginScreen">
+
+    <fragment android:id="@+id/loginScreen" android:name="com.example.shoesapp.LoginScreen"
+              android:label="@string/login_title_txt" tools:layout="@layout/fragment_login_screen">
+        <action android:id="@+id/action_loginScreen_to_welcomeScreen" app:destination="@id/welcomeScreen"
+                app:popEnterAnim="@anim/slide_out" app:enterAnim="@anim/slide_in"/>
+    </fragment>
+    <fragment android:id="@+id/welcomeScreen" android:name="com.example.shoesapp.WelcomeScreen"
+              android:label="WelcomeScreen">
+        <action android:id="@+id/action_welcomeScreen_to_instructionScreen" app:destination="@id/instructionScreen"
+                app:enterAnim="@anim/slide_in" app:popEnterAnim="@anim/slide_out"/>
+    </fragment>
+    <fragment android:id="@+id/instructionScreen" android:name="com.example.shoesapp.InstructionScreen"
+              android:label="InstructionScreen">
+        <action android:id="@+id/action_instructionScreen_to_shoeList" app:destination="@id/shoeList"
+                app:popUpTo="@id/loginScreen" app:enterAnim="@anim/slide_in" app:popEnterAnim="@anim/slide_out"/>
+    </fragment>
+    <fragment android:id="@+id/shoeList" android:name="com.example.shoesapp.ShoeList" android:label="ShoeList">
+        <action android:id="@+id/action_shoeList_to_newShoeDetailsScreen" app:destination="@id/newShoeDetailsScreen"
+                app:enterAnim="@anim/slide_in" app:popEnterAnim="@anim/slide_out"/>
+    </fragment>
+    <fragment android:id="@+id/newShoeDetailsScreen" android:name="com.example.shoesapp.NewShoeDetailsScreen"
+              android:label="fragment_new_shoe_details_screen" tools:layout="@layout/fragment_new_shoe_details_screen">
+        <action android:id="@+id/action_newShoeDetailsScreen_to_shoeList" app:destination="@id/shoeList"
+                app:popUpTo="@id/shoeList" app:enterAnim="@anim/slide_out"
+                app:popEnterAnim="@anim/slide_in" app:popUpToInclusive="true"/>
+    </fragment>
+</navigation>

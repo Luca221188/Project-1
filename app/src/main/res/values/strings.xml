@@ -1,0 +1,34 @@
+<resources>
+    <string name="app_name">Shoes App</string>
+    <string name="login_title_txt">Login</string>
+
+    <string name="email_hint">Insert email</string>
+    <string name="pwd_hint">Insert password</string>
+    <string name="email_textview">Email:</string>
+    <string name="password_textview">Password:</string>
+    <string name="button_login">Login</string>
+    <string name="register_btn">Register</string>
+    <string name="title_view">App Title</string>
+    <string name="welcome_text">Welcome to\nAppName</string>
+    <string name="sub_title_welcome">Thanks for choosing our App!\nThis is the best place for the best deals!</string>
+    <string name="welcome_btn">Go</string>
+    <string name="instruction_one">"Instruction one is to be added for this project! "</string>
+    <string name="save_btn">Save</string>
+    <string name="cancel_btn">Cancel</string>
+    <string name="shoe_name_text">Shoe Name:</string>
+    <string name="company_text">Company:</string>
+    <string name="size_text">Size:</string>
+    <string name="description_text">Description:</string>
+    <string name="shoe_name_hint">Provide shoe name</string>
+    <string name="company_hint">Provide company\'s name</string>
+    <string name="shoe_size_hint">Provide shoe size</string>
+    <string name="description_hint">Provide description</string>
+    <string name="new_shoe_title_text">New shoe details</string>
+    <string name="logout_menu">Logout</string>
+    <string name="img_description"/>
+
+    <string name="shoe_name_format"><![CDATA[<b>Shoe name: </b> %s]]></string>
+    <string name="shoe_company_format"><![CDATA[<b>Company: </b> %s]]></string>
+    <string name="shoe_size_format"><![CDATA[<b>Size: </b> %s]]></string>
+    <string name="shoe_description_format"><![CDATA[<b>Description: </b> %s]]></string>
+</resources>

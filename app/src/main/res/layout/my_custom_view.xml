@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center_horizontal"
+        android:layout_margin="8dp"
+        android:padding="8dp"
+        android:background="@drawable/custom_background"
+>
+
+    <ImageView
+            android:id="@+id/shoe_image"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            tools:src="@android:color/darker_gray"
+            android:contentDescription="@string/img_description"
+            android:layout_marginBottom="8dp"
+            android:scaleType="fitXY"
+    />
+
+    <TextView
+            android:id="@+id/shoe_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:text="Shoe name here"
+            android:textSize="18sp"
+            android:layout_marginBottom="8dp"
+    />
+
+    <TextView
+            android:id="@+id/shoe_size"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:text="Size here"
+            android:textSize="18sp"
+            android:layout_marginBottom="8dp"
+    />
+
+    <TextView
+            android:id="@+id/shoe_company"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:text="Company here"
+            android:textSize="18sp"
+            android:layout_marginBottom="8dp"
+    />
+
+    <TextView
+            android:id="@+id/shoe_description"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:text="Description here"
+            android:textSize="18sp"
+    />
+</LinearLayout>
