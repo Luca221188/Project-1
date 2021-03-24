@@ -11,7 +11,7 @@ import com.example.shoesapp.databinding.FragmentInstructionScreenBinding
 
 
 class InstructionScreen : Fragment() {
-    //There was a message here
+
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?, savedInstanceState: Bundle?): View {
         // Inflate the layout for this fragment
