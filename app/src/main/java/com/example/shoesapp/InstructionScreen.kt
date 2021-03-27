@@ -11,7 +11,7 @@ import com.example.shoesapp.databinding.FragmentInstructionScreenBinding
 
 
 class InstructionScreen : Fragment() {
-    //I want this to stay in the First Branch only!
+    //New comment in place of the old one
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?, savedInstanceState: Bundle?): View {
         // Inflate the layout for this fragment
