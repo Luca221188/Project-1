@@ -8,8 +8,8 @@
         android:layout_height="wrap_content"
         android:orientation="vertical"
         android:gravity="center_horizontal"
-        android:layout_margin="8dp"
-        android:padding="8dp"
+        android:layout_margin="@dimen/half_margin"
+        android:padding="@dimen/half_padding"
         android:background="@drawable/custom_background"
 >
 
@@ -19,7 +19,7 @@
             android:layout_height="200dp"
             tools:src="@android:color/darker_gray"
             android:contentDescription="@string/img_description"
-            android:layout_marginBottom="8dp"
+            android:layout_marginBottom="@dimen/half_margin"
             android:scaleType="fitXY"
     />
 
@@ -29,7 +29,7 @@
             android:layout_height="wrap_content"
             tools:text="Shoe name here"
             style="@style/custom_text_view_style"
-            android:layout_marginBottom="8dp"
+            android:layout_marginBottom="@dimen/half_margin"
     />
 
     <TextView
@@ -38,7 +38,7 @@
             android:layout_height="wrap_content"
             tools:text="Size here"
             style="@style/custom_text_view_style"
-            android:layout_marginBottom="8dp"
+            android:layout_marginBottom="@dimen/half_margin"
     />
 
     <TextView
@@ -47,7 +47,7 @@
             android:layout_height="wrap_content"
             tools:text="Company here"
             style="@style/custom_text_view_style"
-            android:layout_marginBottom="8dp"
+            android:layout_marginBottom="@dimen/half_margin"
     />
 
     <TextView

@@ -18,7 +18,8 @@
             app:layout_constraintTop_toTopOf="parent"
             android:layout_marginTop="128dp"
             style="@style/text_view_style"
-            android:layout_marginStart="16dp" android:layout_marginEnd="16dp"/>
+            android:layout_marginStart="@dimen/margin"
+            android:layout_marginEnd="@dimen/margin"/>
     <TextView
             android:text="@string/instruction_one"
             android:layout_width="wrap_content"
@@ -29,16 +30,17 @@
             android:layout_marginTop="96dp"
             app:layout_constraintTop_toBottomOf="@+id/textView3"
             style="@style/text_view_style"
-            android:layout_marginStart="16dp" android:layout_marginEnd="16dp"/>
+            android:layout_marginStart="@dimen/margin"
+            android:layout_marginEnd="@dimen/margin"/>
     <Button
             android:text="@string/welcome_btn"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:id="@+id/instruction_btn"
-            android:layout_marginEnd="16dp"
+            android:layout_marginEnd="@dimen/margin"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintBottom_toBottomOf="parent"
-            android:layout_marginBottom="16dp"
+            android:layout_marginBottom="@dimen/margin"
             style="@style/button_style"
     />
 </androidx.constraintlayout.widget.ConstraintLayout>

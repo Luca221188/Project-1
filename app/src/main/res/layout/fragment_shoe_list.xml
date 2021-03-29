@@ -13,8 +13,8 @@
                 android:id="@+id/fab_btn"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintBottom_toBottomOf="parent"
-                android:layout_marginEnd="24dp"
-                android:layout_marginBottom="24dp"
+                android:layout_marginEnd="@dimen/big_margin"
+                android:layout_marginBottom="@dimen/big_margin"
                 android:src="@drawable/ic_plus_white"
                 style="@style/fab_btn_style"
         />

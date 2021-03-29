@@ -2,4 +2,7 @@
 <resources>
     <dimen name="margin">16dp</dimen>
     <dimen name="text_dimen">16sp</dimen>
+    <dimen name="half_margin">8dp</dimen>
+    <dimen name="half_padding">8dp</dimen>
+    <dimen name="big_margin">24dp</dimen>
 </resources>
