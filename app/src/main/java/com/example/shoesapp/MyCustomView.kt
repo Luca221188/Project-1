@@ -36,6 +36,7 @@ class MyCustomView(context: Context): LinearLayout(context) {
 //        }
 //        shoe_image.setImageResource(id)
 
+        val id: Int
         //add image with Glide
         if (resource == "") {
 //            Glide.with(this.context).load(R.color.default_image).into(shoe_image)
@@ -43,8 +44,9 @@ class MyCustomView(context: Context): LinearLayout(context) {
             shoe_image.setImageResource(id)
             return
         }
+        id = resources.getIdentifier(resource, "drawable", context.packageName)
         Glide.with(this.context)
-            .load(R.drawable.forest)
+            .load(id)
             .into(shoe_image)
     }
 

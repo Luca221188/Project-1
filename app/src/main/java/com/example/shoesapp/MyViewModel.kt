@@ -19,9 +19,9 @@ class MyViewModel: ViewModel() {
 
     private fun setShoeList() {
         _shoes.value = mutableListOf(
-            Shoe("Converse", 15.0, "All Stars", "A great classic on your feet!", mutableListOf("forest")),
-            Shoe("Timberland boots", 14.0, "Timberland", "For real adventurers!", mutableListOf("forest")),
-            Shoe("Skates", 13.0, "Vans", "Best street shoes!", mutableListOf("forest"))
+            Shoe("Converse", 15.0, "All Stars", "A great classic on your feet!", mutableListOf("converse")),
+            Shoe("Timberland boots", 14.0, "Timberland", "For real adventurers!", mutableListOf("timber")),
+            Shoe("Skates", 13.0, "Vans", "Best street shoes!", mutableListOf("vans2"))
         )
     }
 
