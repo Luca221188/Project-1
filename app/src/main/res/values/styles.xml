@@ -1,10 +1,55 @@
 <resources>
     <!-- Base theme from MaterialDesign -->
     <style name="AppTheme" parent="Theme.MaterialComponents.Light.DarkActionBar">
-        <!-- Customize your theme here. -->
         <item name="colorPrimary">@color/colorPrimary</item>
         <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
         <item name="colorAccent">@color/colorAccent</item>
     </style>
 
+    <style name="basic_view">
+        <item name="android:fontFamily">@font/bitter</item>
+        <item name="android:textColor">@android:color/black</item>
+    </style>
+
+    <style name="text_view_style" parent="basic_view">
+        <item name="android:textSize">18sp</item>
+        <item name="android:textAlignment">center</item>
+    </style>
+
+    <style name="custom_text_view_style" parent="basic_view">
+        <item name="android:textSize">18sp</item>
+    </style>
+
+    <style name="button_style">
+        <item name="android:fontFamily">@font/bitter</item>
+        <item name="backgroundTint">@color/colorAccent</item>
+    </style>
+
+    <style name="outline_button_style" parent="@style/Widget.MaterialComponents.Button.OutlinedButton">
+        <item name="android:fontFamily">@font/bitter</item>
+        <item name="strokeColor">@color/colorAccent</item>
+        <item name="strokeWidth">2dp</item>
+        <item name="android:textColor">@color/colorAccent</item>
+    </style>
+
+    <style name="fab_btn_style">
+        <item name="backgroundTint">@color/colorAccent</item>
+        <item name="tint">@android:color/white</item>
+    </style>
+
+    <style name="edit_text_style" parent="basic_view">
+        <item name="android:textAlignment">center</item>
+    </style>
+
+    <style name="title_style" parent="basic_view">
+        <item name="android:textAlignment">center</item>
+        <item name="android:textSize">30sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="sub_title_style" parent="basic_view">
+        <item name="android:textAlignment">center</item>
+        <item name="android:textSize">24sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
 </resources>
